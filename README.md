@@ -1,6 +1,6 @@
 # Introduction
 
-This project utilizes Terraform to deploy an AWS infrastructure for a Seamless application. It involves the creation of a Virtual Private Cloud (VPC), public and private subnets, an Internet Gateway, a Network Address Translation (NAT) Gateway, and an Application Load Balancer (ALB) with associated resources.
+This project utilizes Terraform to deploy an AWS infrastructure for a ARIES application. It involves the creation of a Virtual Private Cloud (VPC), public and private subnets, an Internet Gateway, a Network Address Translation (NAT) Gateway, and an Application Load Balancer (ALB) with associated resources.
 
 ## Prerequisites
 
@@ -15,13 +15,12 @@ Before you begin, ensure you have the following:
 1. **Clone this repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    https://github.com/ARIES5533/LoadBalancer-Terraform.git
     ```
 
 2. **Update the provider "aws" block in `main.tf` with your AWS credentials.**
 
-3. **Initialize your Terraform working directory:**
+3. **Initialize your Terraform working directory and run Terraform plan after:**
 
     ```bash
     terraform init
