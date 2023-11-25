@@ -178,7 +178,7 @@ resource "aws_lb_listener" "ARIES_https_lister" {
   port              = 443
   protocol          = "HTTPS"
   ssl_policy        = "ELBSecurityPolicy-2016-08"
-  certificate_arn   = "arn:aws:acm:us-east-1:667661178193:certificate/293281b9-00d1-40d6-8295-2a3f8c7b9db5"
+  certificate_arn   = ""
 
   default_action {
     type             = "forward"
